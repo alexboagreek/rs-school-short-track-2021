@@ -13,8 +13,8 @@
  *
  */
 function isMAC48Address(n) {
-  const extras = /^[0-9A-F-]{2}-[0-9A-F-]{2}-[0-9A-F-]{2}-[0-9A-F-]{2}-[0-9A-F-]{2}$/;
-  return extras.test(n);
+  const regExtras = /^[0-9A-F]{2}-[0-9A-F]{2}-[0-9A-F]{2}-[0-9A-F]{2}-[0-9A-F]{2}-[0-9A-F]{2}$/;
+  return regExtras.test(n);
 }
 
 module.exports = isMAC48Address;
