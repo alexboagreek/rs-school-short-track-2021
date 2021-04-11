@@ -14,7 +14,7 @@
  *
  * The result should be 9
  */
- function getMatrixElementsSum(matrix) {
+function getMatrixElementsSum(matrix) {
 
 }
 
